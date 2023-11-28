@@ -1,0 +1,22 @@
+{
+  "smtp" : {
+    "host" : "smtp.ethereal.email",
+    "port" : 587,
+    "auth" : {
+      "user" : "favian.nikolaus@ethereal.email",
+      "pass" : "7Gyq6E1s3f19UAKs8D"
+    }
+  },
+  "imap" : {
+    "host" : "imap.ethereal.email",
+    "port" : 993,
+    "auth" : {
+      "user" : "favian.nikolaus@ethereal.email",
+      "pass" : "7Gyq6E1s3f19UAKs8D"
+    }
+  }
+}
+
+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
+https://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@github.com/KruthiChandrashekar/web-uci.git
+

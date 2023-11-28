@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "../assignment4"
+    },
+    {
+      "path": "mailbag/mailbag"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "mailbag"
+  }
+}

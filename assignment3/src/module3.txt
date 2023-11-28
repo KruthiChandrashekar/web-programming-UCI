@@ -1,0 +1,11 @@
+1. Code editor: VS Code
+2. Browser - Google chrome - Version 119.0.6045.159
+3. OS: MacOS Sonoma version 14.1
+Testing:
+When testing a React web page, I'd employ a multi-layered approach. First, I'd conduct unit tests using Jest and Enzyme to validate individual 
+components, ensuring they render correctly, handle state changes, and respond as expected to user interactions. Next, integration tests using 
+tools like React Testing Library would examine how these components work together, checking for proper data flow and interactions between them. 
+Additionally, I'd perform end-to-end tests with tools like Cypress to simulate user behavior across the entire application, verifying 
+functionalities like form submissions, navigation, and API interactions. Lastly, I'd consider accessibility testing to ensure the site is usable 
+by all, adhering to WCAG standards. These combined tests would offer comprehensive coverage, increasing the likelihood of a smooth experience 
+for the majority of users.

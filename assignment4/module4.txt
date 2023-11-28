@@ -1,0 +1,44 @@
+1. Code editor: VS Code
+2. Browser - Google chrome - Version 119.0.6045.159
+3. OS: MacOS Sonoma version 14.1
+
+4. Testing:
+To test the provided TypeScript code for the TodoList class and its associated
+functions to ensure it works for the majority of users interacting with the web
+page, you can follow these steps:
+1. Unit Testing for TodoList Class Methods:
+Unit test each method of the TodoList class (e.g., addTask and displayTasks) to
+validate their functionality individually. Use testing frameworks like Jest, Mocha,
+or Jasmine to create test suites and assertions to verify expected behavior
+against different scenarios:
+Test addTask to confirm tasks are added to the list.
+Test displayTasks to ensure the tasks are displayed correctly in the HTML list.
+2. Integration Testing:
+Test the interaction between functions to verify the flow of adding tasks and
+displaying them in the UI. For example, simulate user interaction with the
+addTask button to check if tasks are added and displayed correctly in the list.
+
+5. Typescript features used:
+1. Type Annotations:
+tasks: string[] specifies the type of the tasks property as an array of strings.
+addTask(task: string) defines the parameter task as a string in the addTask
+method.
+as HTMLInputElement asserts the type of taskInput variable in the addTask
+function.
+2. Classes:
+class TodoList defines a class encapsulating properties (tasks) and methods
+(addTask, displayTasks) related to a todo list.
+3. Constructor:
+constructor() initializes the tasks property as an empty array when a TodoList
+instance is created.
+4. Arrow Functions:
+forEach((task, index) => {...}) uses an arrow function in the displayTasks method
+to iterate over tasks.
+5. DOM Manipulation:
+document.getElementById retrieves elements from the DOM.
+createElement and appendChild are used to create and append elements to the
+DOM.
+innerHTML and textContent are used to manipulate HTML content.
+6. Type Assertion:
+as HTMLInputElement is a type assertion used to inform the TypeScript compiler
+about the type of a variable (taskInput) retrieved from the DOM.
